@@ -1,0 +1,94 @@
+@media only screen /* Smartphones */
+and (min-width : 320px)
+and (max-width : 480px) {
+header{
+  text-align: center;
+}
+
+}
+
+@media only screen /* Desktop */
+and (min-width : 1025px) {
+.container-fluid{
+  padding-top: 40px;
+}
+#header_wrap{
+ background-image: url('../img/subtlenet2.png');
+ height: 130px;
+ border-bottom: 2px double #e0e0e0;
+ border-top: 3px solid #5a8dd9;
+}
+header{
+  width: 25.9%;
+  margin: -10px auto 0 auto;
+  background-color: #5a8dd9;
+  height:160px;
+  border-bottom: 2px double #e0e0e0;
+  border-left: 2px double #e0e0e0;
+  border-right: 2px double #e0e0e0;
+  padding-bottom: 20px;
+}
+header{
+  text-align: center;
+}
+
+header h1{
+  font-size: 3em;
+  color: white;
+  font-family: Bodoni, serif;
+  padding-top: 40px;
+}
+
+header p{
+  font-family: Helvetica, sans-serif;
+  color: white;
+  font-size: 1.125em;
+  font-weight: bold;
+  width: 65%;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+}
+
+
+
+.span4 p{
+  padding-top: 15px;
+  font-family: Georgia;
+  font-size: 1.125em;
+  font-style: italic;
+  padding: 10px 10px 15px 10px;
+}
+
+.span4{
+  border-top: 4px double #e0e0e0;
+  border-bottom: 4px double #e0e0e0;
+}
+.span4 h2 {
+  background-color: #5a8dd9;
+  margin: 0;
+  padding-left: 10px;
+  font-size: 1.5em;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.grade{
+  float: right;
+  font-size: 0.75em;
+  color: #ff9595;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #3772c9;
+}
+
+.typo{
+  background-color: #ff9595;
+  
+}
+.row-fluid{
+  margin-top: 20px;
+}
